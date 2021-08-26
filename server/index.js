@@ -14,7 +14,7 @@ app.get("/", function (req, res) {
 });
 
 //declare a port #, assigned a port # from hiraku or add one in manually
-const port = process.env.PRT || 4005;
+const port = process.env.PORT || 4005;
 //env stands for enviroment
 
 //app listen, port as first argument, second one is a function
